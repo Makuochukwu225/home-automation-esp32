@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "m";
-const char* password = "........";
+const char* ssid = "wifi-name";
+const char* password = "wifi-password";
 
 // WebSocket server details
-const char* websocket_server = "jay-rare-kindly.ngrok-free.app"; // no https://
+const char* websocket_server = "server-url"; // no https://
 const int websocket_port = 443; // 443 for SSL
 const char* websocket_path = "/esp32";
 
